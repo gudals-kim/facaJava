@@ -6,6 +6,6 @@ public class StudentTest {
         studentLee.studentname = "이순신";
         studentLee.address = "서울";
 
-        studentLee.showSutdentInfo();
+        studentLee.showStudentInfo();
     }
 }

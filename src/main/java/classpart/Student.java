@@ -5,7 +5,7 @@ public class Student {
     public String studentname;
     public String address;
 
-    public void showSutdentInfo(){
+    public void showStudentInfo(){
         System.out.println(studentname+","+address);
     }
 }
