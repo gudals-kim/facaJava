@@ -3,12 +3,12 @@ package reference;
 public class SubjectTest {
     public static void main(String[] args) {
         Student studentLee = new Student(100, "Lee");
-        studentLee.setKoreaSubject("국어",100);
-        studentLee.setMathSubject("수학",95);
+        studentLee.setSubject(100,"국어");
+        studentLee.setSubject(90,"수학");
 
         Student studentKim = new Student(101,"kim");
-        studentKim.setKoreaSubject("국어",60);
-        studentKim.setMathSubject("국어",70);
+        studentKim.setSubject(60,"수학");
+        studentKim.setSubject(40,"국어");
 
         studentLee.showStudentScore();
         studentKim.showStudentScore();

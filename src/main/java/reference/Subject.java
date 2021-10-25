@@ -6,4 +6,8 @@ public class Subject {
     int score;
     int subjectID;
 
+    public void setSubject(int score,String subjectName){
+        String SubjectName = subjectName;
+        int SubjectScore = score;
+    }
 }
