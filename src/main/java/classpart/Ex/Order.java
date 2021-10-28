@@ -16,7 +16,14 @@ public class Order {
         kim = new Person();
         Lee = new Person();
     }
-    public void personIn()
+    public void setkimIn(String name, String address){
+        kim.name = name;
+        kim.address = address;
+    }
+    public void setleeIn(String name, String address){
+        Lee.name = name;
+        Lee.address = address;
+    }
 
 
 
